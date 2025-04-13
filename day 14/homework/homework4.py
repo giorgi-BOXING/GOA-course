@@ -3,6 +3,6 @@
 print(True and False) # ეს გამოიტანს false-ს იმიტომ თუ პირობის რომელიმე მხარე არის False გამოიტანს False-ს
 print(True and True) # ეს გამოიტანს True-ს რადგან ორივე მხარეს არის True 
 print(True or False) # ეს გამოიტანს True-ს რადგან or ოპერატორზე პირობის რომელიმე მხარე თუ არის True გამოიტანს True-ს
-print(False or False) # ეს გამოიტანს False-ს რადგან ორივე მხარეს წერია Falsee
+print(False or False) # ეს გამოიტანს False-ს რადგან ორივე მხარეს წერია False
 print(not True) # ეს გამოიტანს False-ს რადგან not-ი აბრუნებს მნიშვნელობას
 print(not False) # ეს გამოიტანს true-ს რადგან not აბრუნებს მნიშვნელობას
