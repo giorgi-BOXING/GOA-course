@@ -1,0 +1,34 @@
+
+<!-- 4) ვებ-საიტზე შემოიტანეთ 4 ცალი h1-ი, ყველა h1-ი გასტილეთ ერთი და იგივე სტილით element selector-ების მეშვეობით, მხოლოდ მეორე h1-ს უკვე გადაეცით class selector-ი და გასტილეთ იგი სხვანაირად, მესამე h1-ს გადაეცით id selector-ი და გასტილეთ იგი id-ის მეშვეობით, ხოლო ბოლო h1-ის გასასტილად გამოიყენეთ style ატრიბუტი ანუ inline css-ი. -->
+ <!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>სხვადასხვა h1 სტილები</title>
+  <style>
+    h1 {
+      color: darkblue;
+      font-size: 32px;
+      text-align: center;
+    }
+    .highlight {
+      color: orange;
+      background-color: #fff3cd;
+    }
+    #specialTitle {
+      color: white;
+      background-color: darkgreen;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1></h1>
+  <h1 class="highlight"></h1>
+  <h1 id="specialTitle"></h1>
+  <h1 style="color: red; background-color: lightgray; font-size: 28px;">
+  </h1>
+
+</body>
+</html>

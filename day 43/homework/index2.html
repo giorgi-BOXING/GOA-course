@@ -1,0 +1,61 @@
+
+<!-- 4) შექმენით ვებ-აიტი ნებისმიერ თემატიზაკე, გამოიყენეთ აქამდე მთლიანად ნასწავლი, განსაკუთრებით დღევანდელ გაკვეთილზე ახსნილი მასალა. -->
+ <!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ქართული კულტურა</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>ქართული კულტურა</h1>
+    <nav>
+      <ul>
+        <li><a href="#traditions">ტრადიციები</a></li>
+        <li><a href="#food">სამზარეულო</a></li>
+        <li><a href="#art">ხელოვნება</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="traditions">
+      <h2>ტრადიციები</h2>
+      <p>საქართველო ცნობილია თავისი უნიკალური ტრადიციებით, როგორიცაა სუფრა, თამადა და სტუმართმოყვარეობა.</p>
+    </section>
+
+    <section id="food">
+      <h2>სამზარეულო</h2>
+      <p>ხაჭაპური, ხინკალი, ლობიანი — ქართული სამზარეულო მდიდარია არომატებით და ისტორით.</p>
+    </section>
+
+    <section id="art">
+      <h2>ხელოვნება</h2>
+      <p>ქართული პოლიფონიური სიმღერა, ფოლკლორი და ეროვნული ცეკვები — კულტურის განუყოფელი ნაწილია.</p>
+    </section>
+
+    <section id="feedback">
+      <h2>თქვენი აზრი</h2>
+      <form id="feedbackForm">
+        <label for="name">სახელი:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="comment">კომენტარი:</label>
+        <textarea id="comment" name="comment" required></textarea>
+
+        <button type="submit">გაგზავნა</button>
+      </form>
+
+      <div id="messages"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ქართული კულტურა</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

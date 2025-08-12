@@ -1,0 +1,112 @@
+body {
+  background: #121212;
+  color: #f7f1d1;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #f0c330;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px #000;
+}
+
+nav a {
+  margin: 0 12px;
+  color: #f7f1d1;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:link {
+  background-color: transparent;
+}
+
+nav a:hover {
+  background-color: #f0c330;
+  color: #121212;
+}
+
+nav a:active {
+  background-color: #c1a623;
+  color: #121212;
+}
+
+main {
+  max-width: 700px;
+  margin: 30px auto;
+  text-align: left;
+}
+
+.gilak {
+  background: linear-gradient(145deg, #3d2f0b, #412e09);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow:
+    4px 4px 12px rgba(0, 0, 0, 0.7),
+    inset 2px 2px 8px rgba(255, 204, 51, 0.6);
+  transition:
+    box-shadow 0.4s ease,
+    transform 0.3s ease,
+    background 0.3s ease,
+    color 0.3s ease;
+  cursor: default;
+}
+
+.gilak:hover,
+.gilak:focus {
+  background: linear-gradient(145deg, #ffdd55, #f0c419);
+  box-shadow:
+    0 0 30px #ffdd55,
+    inset 0 0 25px #fff8aa;
+  transform: translateY(-7px) scale(1.05);
+  color: #3d2711;
+  outline: none;
+}
+
+.gilak h2 {
+  color: #ffcc33;
+  border-bottom: 2px solid #ffcc33;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+}
+
+.gilak ul {
+  margin-left: 20px;
+  list-style: disc inside;
+}
+
+a {
+  color: #f7f1d1;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:link {
+  color: #f7f1d1;
+}
+
+a:hover {
+  color: #f0c330;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #c1a623;
+  text-decoration: underline;
+}
+
+footer {
+  color: #a68c00;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+

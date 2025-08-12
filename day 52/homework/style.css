@@ -1,0 +1,62 @@
+/* ზოგადი სტილი */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* სათაური და მენიუ */
+header {
+    background-color: #be9b7b;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* მენიუს ბმულების სტილიზაცია */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+nav a:hover {
+    color: #be9b7b;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* ძირითადი სექციები */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* ქვედა კოლოფი */
+footer {
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    font-size: 14px;
+}

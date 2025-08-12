@@ -1,0 +1,37 @@
+/* ფონტის დაკავშირება */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    font-size: 18px;
+}
